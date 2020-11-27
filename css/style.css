@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+		.header_container{
+			background-color: #F9D9EB;
+			display: flex;
+			justify-content: center;
+			
+		}
+		.main_container{
+			display: flex;
+			width: 80%;
+			margin: auto 0;
+		}
+		.main_text{
+			font-family: Work Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 80px;
+			line-height: 78px;
+			color: #2B292D;
+		}
+		.block_text{
+		    z-index: 1;
+		}
+
+		.img{
+		margin-left: -70px;
+    margin-top: 30px;
+    z-index: 2;
+		}
