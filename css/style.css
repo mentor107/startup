@@ -37,11 +37,13 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
+
 .container {
     width: 80%;
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .features {
     display: flex;
     padding: 145px 0 190px 0;
@@ -90,5 +92,52 @@ body {
 .features_item a:hover {
     background-color: #dad607;
     transition: background-color linear 1s;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    padding: 43px 0 59px;
+}
+.block-1 {
+    margin-right: 136px;
+}
+.icon-block {
+    display: flex;
+    margin-bottom: 26px;
+}   
+.icon-text {
+    padding: 4px;
+}
+.icon-text h3 {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+color: #2B292D;
+}
+.icon-text p {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: rgba(43, 41, 45, 0.6);
+}
+.text p {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: rgba(43, 41, 45, 0.6);
+}
+.text {
+    margin-bottom: 25px;
+}
+.image-block img:not(:last-child){
+margin-right: 5px;
+
 }
 
